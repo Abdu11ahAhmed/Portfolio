@@ -1,0 +1,326 @@
+@media screen and (max-width: 1700px) {
+  :root {
+    --max-width: 1173px;
+  }
+  .fullwidth {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+  }
+  .container {
+    width: var(--max-width);
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  :root {
+    --text-color: #000;
+    --background-color: #fff;
+    --h1--: 26px;
+    --h2--: 25px;
+    --h3--: 19px;
+    --p--: 17px;
+    --max-width: 1100px;
+  }
+
+  .section1 .maintext {
+    min-height: 400px;
+  }
+  .section1 .maintext h1 {
+    font-size: calc(var(--h1--) + 14px);
+  }
+  .section1 span {
+    font-size: 46px;
+    padding: 0 20px;
+  }
+  .cards .card {
+    height: 270px;
+  }
+  .cards .card .image img {
+    height: auto;
+    width: 80px;
+  }
+  /* ----------------- */
+
+  .section2 {
+    min-height: 280px;
+  }
+  .section2 h1 {
+    font-size: 30px;
+  }
+  /* ----------------- */
+
+  .section3 {
+    min-height: 750px;
+  }
+  .section3 .header {
+    min-height: 150px;
+  }
+  .section3 .content {
+    min-height: 900px;
+  }
+  .section3 .content .left-sec {
+    height: 800px;
+  }
+  .section3 .content .right-sec {
+    height: 800px;
+  }
+  .section3 .content .left-sec .guide-parallax,
+  .section3 .content .right-sec .guide-parallax {
+    height: 90%;
+  }
+  .section3 .content .left-sec .guide-parallax img,
+  .section3 .content .right-sec .guide-parallax img {
+    height: 90%;
+  }
+  /* ----------------- */
+
+  .section4 p {
+    font-size: 20px;
+  }
+  .section4 {
+    min-height: 300px;
+    padding: 100px 0 50px 0;
+  }
+  /* ----------------- */
+
+  .section5 {
+    min-height: 300px;
+  }
+  /* ----------------- */
+
+  .section6 h1 {
+    font-size: calc(var(--h1--) + 14px);
+  }
+  .section6 .content.one .left .project {
+    height: 800px;
+  }
+  .section6 .content.one .right .project {
+    height: 850px;
+  }
+  /* ----------------- */
+
+  .section7 h1 {
+    min-height: 200px;
+    font-size: calc(var(--h1--) + 14px);
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  :root {
+    --text-color: #000;
+    --background-color: #fff;
+    --h1--: 25px;
+    --h2--: 25px;
+    --h3--: 17px;
+    --p--: 16px;
+    --max-width: 800px;
+  }
+
+  .section1 .maintext {
+    min-height: 300px;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .cards .card {
+    width: 210px;
+  }
+  .cards .card:nth-child(1) {
+    transform: translateY(0px);
+  }
+  .cards .card:nth-child(2) {
+    transform: translateY(0px);
+  }
+  .cards .card:nth-child(4) {
+    transform: translateY(0px);
+  }
+  .cards .card:nth-child(5) {
+    transform: translateY(0px);
+  }
+  /* ------------ */
+
+  .section2 {
+    min-height: 230px;
+  }
+  .section2 h1 {
+    font-size: 25px;
+  }
+  /* ----------------- */
+
+  .section3 {
+    min-height: 650px;
+  }
+  .section3 .header {
+    min-height: 150px;
+  }
+  .section3 .content {
+    min-height: 700px;
+  }
+  .section3 .content .left-sec {
+    height: 650px;
+  }
+  .section3 .content .right-sec {
+    height: 650px;
+  }
+  .section3 .content .left-sec .guide-parallax,
+  .section3 .content .right-sec .guide-parallax {
+    height: 90%;
+  }
+  .section3 .content .left-sec .guide-parallax img,
+  .section3 .content .right-sec .guide-parallax img {
+    height: 90%;
+  }
+  /* ----------------- */
+
+  .section4 {
+    min-height: 200px;
+    padding: 100px 0 0px 0;
+  }
+  .section4 p {
+    font-size: 18px;
+  }
+  .section4:nth-last-child(1) {
+    padding: 100px 0 200px 0;
+  }
+  /* ----------------- */
+
+  .section5 ul li {
+    margin: 0px 40px;
+  }
+  /* ----------------- */
+
+  .section6 h1 {
+    font-size: calc(var(--h1--) + 14px);
+  }
+  .section6 .content.one .left .project {
+    height: 600px;
+  }
+  .section6 .content.one .right .project {
+    height: 650px;
+  }
+  /* ----------------- */
+}
+@media screen and (max-width: 870px) {
+  :root {
+    --text-color: #000;
+    --background-color: #fff;
+    --h1--: 25px;
+    --h2--: 25px;
+    --h3--: 17px;
+    --p--: 16px;
+    --max-width: 600px;
+  }
+  .section1 .maintext {
+    min-height: 400px;
+  }
+  .section1 .maintext h1 {
+    font-size: calc(var(--h1--) + 8px);
+  }
+  .section1 span {
+    font-size: 35px;
+    padding: 0 20px;
+  }
+  .section2 h1 {
+    font-size: 20px;
+  }
+  /* ----------------- */
+
+  .section3 {
+    min-height: 450px;
+  }
+  .section3 .content.one {
+    display: none;
+  }
+  .section3 .content.two {
+    min-height: 450px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .section3 .content.two .left,
+  .section3 .content.two .right {
+    height: 400px;
+    width: 49%;
+    overflow: hidden;
+  }
+  .section3 .content.two .right {
+    transform: translateY(50px);
+  }
+  .section3 .content.two .left img,
+  .section3 .content.two .right img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .section3 .content.two .left .text,
+  .section3 .content.two .right .text {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  /* ----------------- */
+  .section4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .section4:nth-last-child(1) {
+    padding: 50px 0 200px 0;
+  }
+  .section4 h1 {
+    padding: 20px 0px;
+  }
+  /* ----------------- */
+
+  .fullwidth {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  /* ----------------- */
+
+  .section6 .content.one {
+    display: none;
+  }
+  .section6 .content.two {
+    display: unset;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+  }
+  .section6 .content.two .left,
+  .section6 .content.two .right {
+    min-height: 500px;
+    width: 49%;
+  }
+  .section6 .content.two .right {
+    transform: translate(4%, 50px);
+  }
+  .section6 .content.two .left .project,
+  .section6 .content.two .right .project {
+    border-radius: 10px;
+    margin: 0 0 13px 0;
+  }
+  .section6 .content.two .left img,
+  .section6 .content.two .right img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .section6 .content.two .left .text,
+  .section6 .content.two .right .text {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}

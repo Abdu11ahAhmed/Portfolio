@@ -1,0 +1,445 @@
+.section1 {
+  min-height: 900px;
+  width: 100%;
+}
+.section1::before {
+  content: url(../images/Group\ 2.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.2;
+  height: 100%;
+  width: 90%;
+}
+.section1 .maintext {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.section1 .maintext h1 {
+  font-size: calc(var(--h1--) + 20px);
+}
+.section1 span {
+  font-family: "tiny";
+  font-size: 55px;
+  padding: 0 20px;
+  border: 2px solid var(--text-color);
+  margin: 0 10px;
+  border-radius: 10000px;
+  display: inline-block;
+}
+.section1 .maintext p {
+  margin: 20px 0;
+}
+.section1 .maintext a {
+  padding: 0.5rem 2rem;
+  border: 1px solid var(--text-color);
+  border-radius: 100px;
+}
+/* section1 text */
+
+.cards {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card {
+  height: 320px;
+  width: 230px;
+  background: var(--background-color);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 0 50px #f2f2f2;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px solid #f2f2f2;
+}
+.cards .card .text {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.cards .card .text h3 {
+  padding: 0 0 10px 0;
+}
+.cards .card .image {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card .image img {
+  height: auto;
+  width: 100px;
+}
+.cards .card:nth-child(1) {
+  transform: translateY(-130px);
+}
+.cards .card:nth-child(2) {
+  transform: translateY(-70px);
+}
+.cards .card:nth-child(4) {
+  transform: translateY(-70px);
+}
+.cards .card:nth-child(5) {
+  transform: translateY(-130px);
+}
+/* section 1 */
+
+.parallax {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+.parallax .parallaxed-dev {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.parallax .parallaxed-dev img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* parallaxed  */
+
+.section2 {
+  min-height: 350px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.section2 h1 {
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 120%;
+}
+/* section 2 */
+
+.section3 {
+  min-height: 850px;
+  width: 100%;
+}
+.section3 .header {
+  min-height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section3 .header p {
+  padding: 10px 0;
+}
+.section3 .content.one {
+  position: relative;
+  width: 100%;
+  min-height: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .content.one .left-sec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 900px;
+  width: 49%;
+}
+.section3 .content.one .right-sec {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  height: 900px;
+  width: 49%;
+}
+.section3 .content.one .left-sec .guide-parallax,
+.section3 .content.one .right-sec .guide-parallax {
+  height: 90%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .content.one .left-sec .guide-parallax img,
+.section3 .content.one .right-sec .guide-parallax img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}
+.section3 .content.one .left-sec .text,
+.section3 .content.one .right-sec .text {
+  min-height: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.section3 .content.one .left-sec .text p,
+.section3 .content.one .right-sec .text p {
+  padding: 10px 0;
+}
+.section3 .content.two{
+  display: none;
+}
+/* section 3  */
+
+.section4 {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  padding: 150px 0 50px 0;
+}
+.section4:nth-last-child(1) {
+  padding: 150px 0 200px 0;
+}
+.section4 p {
+  font-size: 25px;
+  line-height: 120%;
+}
+/* section 4 */
+
+.section5 {
+  min-height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section5 h1 {
+  font-size: var(--h1--);
+  padding: 20px 0;
+}
+.section5 ul li {
+  list-style: circle;
+  padding: 10px 0;
+  margin: 10px 40px;
+}
+.section5 ul li p {
+  font-size: var(--p--);
+  letter-spacing: 0em;
+}
+.section5 ul li p strong {
+  letter-spacing: 0em;
+}
+/* section5  */
+
+.fullwidth {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--text-color);
+  background: #212121;
+  padding: 200px 0;
+  border-top-left-radius: 200px;
+  border-top-right-radius: 200px;
+  overflow: hidden;
+}
+.fullwidth::before {
+  position: absolute;
+  top: 100px;
+  right: 20%;
+  content: "";
+  height: 700px;
+  width: 700px;
+  background: #7c7c7c;
+  filter: blur(1000px);
+}
+.container.two {
+  min-height: 100vh;
+}
+.section6 {
+  min-height: 100vh;
+  width: 100%;
+}
+.section6 h1 {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  font-size: calc(var(--h1--) + 20px);
+  color: var(--background-color);
+}
+.section6 p,
+.section6 strong {
+  color: var(--background-color);
+}
+.section6 .content.one {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section6 .content.one .left,
+.section6 .content.one .right {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+}
+.section6 .content.one .left .project {
+  position: relative;
+  height: 900px;
+  margin: 0 10px 40px 0;
+  overflow: hidden;
+}
+.section6 .content.one .right .project {
+  position: relative;
+  height: 950px;
+  margin: 70px 0 40px 10px;
+}
+.section6 .content.one .left .project .image,
+.section6 .content.one .right .project .image {
+  width: 100%;
+  height: 700px;
+}
+.section6 .content.one .left .project .image img,
+.section6 .content.one .right .project .image img {
+  width: 100%;
+  height: auto;
+}
+.section6 .content.one .left .project .text,
+.section6 .content.one .right .project .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  background: var(--text-color);
+  background: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 30px;
+  z-index: 1;
+}
+.section6 .content.one .right .project .text {
+  bottom: -30px;
+}
+.section6 .content.two {
+  display: none;
+}
+/* .section6 */
+
+.section7 {
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section7 h1 {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  font-size: calc(var(--h1--) + 20px);
+  color: var(--background-color);
+}
+.section7 p,
+.section7 strong {
+  color: var(--background-color);
+  font-size: 20px;
+  width: 80%;
+  line-height: 120%;
+}
+/* section 7  */
+
+.section2:nth-last-child(1) {
+  color: white;
+  display: flex;
+  align-items: unset;
+  justify-content: center;
+  flex-direction: column;
+}
+.section2:nth-last-child(1) h1 {
+  color: white;
+  padding: 20px 0;
+}
+.section2:nth-last-child(1) a {
+  color: white;
+  border: 1px solid white;
+  padding: 0.7rem 0rem;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10000px;
+}
+
+/* parallaxed things is not inside the container element  */
+/* final container */
+
+
+.last {
+  position: relative;
+  min-height: 80vh;
+  width: 100%;
+  background: black;
+}
+.last h1,
+.last h2,
+.last h3,
+.last h4,
+.last p,
+.last a {
+  color: white;
+}
+.last .footer {
+  min-height: 60vh;
+  width: 1173px;
+  margin: 10vh auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.last .footer .top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.last .footer .top h1 {
+  font-size: 100px;
+}
+.last .footer .top a {
+  font-size: 100px;
+  font-weight: lighter;
+  border-bottom: 1px solid gray;
+}
+.last .footer .down {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.last .footer .down div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.last .footer .down div:nth-child(1) p {
+  color: gray;
+  padding: 10px 0;
+}
+.last .footer .down div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.last .footer .down div:nth-child(2) ul {
+  width: 100%;
+}
+.last .footer .down div:nth-child(2) ul li a {
+  padding: 7px 20px;
+  display: inline-block;
+}
